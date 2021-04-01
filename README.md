@@ -120,5 +120,5 @@ public class ClosestPair3 {
 
     }
 }
-'''
+```
 
