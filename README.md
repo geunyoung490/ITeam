@@ -100,7 +100,7 @@ else{
 int CPL[][] = closestPair(p,start,mid); //SL
 int CPR[][] = closestPair(p,mid+1,end); //SR
 ```
-- `Line 2`: n>3인경우 **SL**(start~mid)과SR(mid~end) 로 분할해 줄때, n이 짝수일 경우  중간값이 (start+end)/2이지만 홀수인경우 1을 더 해준다.
+- `Line 2`: n>3인경우 **SL**(start\~mid)과SR(mid\~end) 로 분할해 줄때, n이 짝수일 경우  중간값이 (start+end)/2이지만 홀수인경우 1을 더 해준다.
 - `Line3`,`Line4`: 분할된 **SL**과 **SR**에 대해서 재귀적으로 최근접 점의 쌍을 찾아서 각각을 **CPL**과 **CPR**이라고 놓는다.
 ---
 ```Java
