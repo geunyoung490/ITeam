@@ -3,7 +3,7 @@
 - 장진이 이근영 이종웅
 
 ---
-##코드 설명
+#
 
 ```javascript
 import java.util.Random;
